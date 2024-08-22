@@ -5,7 +5,7 @@ name: release
 on:
   push:
     branches:
-      - master
+      - main
     paths:
       - 'dashboards/**/*.json'
   # Allow this workflow to be manually triggered
